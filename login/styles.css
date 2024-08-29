@@ -1,0 +1,94 @@
+/* General styles for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f06, #48f, #0f6); /* Gradient background */
+}
+
+/* Styles for the login container */
+.login-container {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    text-align: center;
+}
+
+/* Styles for the form elements */
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Styles for SSO buttons */
+.sso-buttons {
+    margin-top: 20px;
+}
+
+.sso-buttons button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#google-login {
+    background-color: #db4437; /* Google red */
+}
+
+#facebook-login {
+    background-color: #3b5998; /* Facebook blue */
+}
+
+#github-login {
+    background-color: #333; /* GitHub black */
+}
+
+#google-login:hover {
+    background-color: #c13584; /* Darker Google red */
+}
+
+#facebook-login:hover {
+    background-color: #2d4373; /* Darker Facebook blue */
+}
+
+#github-login:hover {
+    background-color: #24292e; /* Darker GitHub black */
+}
+
